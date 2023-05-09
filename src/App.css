@@ -7,6 +7,27 @@
   pointer-events: none;
 }
 
+.nav_bar_wrapper a{
+  padding-left: 20px;
+  text-decoration: none;
+}
+.nav_bar_wrapper a:hover{
+  color:aliceblue;
+}
+span {
+  display: inline-block;
+  background-color: antiquewhite;
+  padding: 10px;
+  margin: 5px;
+}
+
+.list-wrapper{
+  border: 2px solid pink;
+  margin: auto;
+  width: 500px;
+  margin-top: 10px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
